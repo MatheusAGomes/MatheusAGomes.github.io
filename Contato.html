@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Blog De Memes</title>
+<style>
+
+*{
+        margin: 0;
+        padding: 0;
+}
+.a{
+        text-decoration: none;
+        color: darkblue;
+        font-family: Gadugi;
+}
+#cabecario {  
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+ }
+ #textoC
+ {
+     margin-left: 50%;
+     justify-content: space-between;
+     font-size: 35px;
+     
+ }
+ #quadrado
+ {
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%;
+    font-family: Gadugi;
+    color: darkblue;
+ }
+ #esquerda
+ {
+    margin-top: 1%;
+    width: 50%;
+    height: 60%;
+    margin-left: 1%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px 10px 10px 10px;
+    
+ }
+ #direita
+ {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: lightblue;
+    border-radius: 10px 10px 10px 10px;
+
+
+ }
+ input
+ {
+    border-radius: 10px 10px 10px 10px;
+    width: 50%;
+    height: 3%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    
+ }
+ button
+ {
+    width: 20%; 
+    height:5%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    color: darkblue;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+ }
+
+
+ </style>
+</head>
+<body>
+<div id="cabecario">
+<img src="Captura de tela 2022-08-15 080949.png" width="100" height="100">
+<div id = "textoC">
+    <b>
+<a href="index.html" class="a">Home</a>
+<a href="Contato.html"  class="a">Contato</a>
+<a href="Sobre.html"  class="a">Sobre</a>
+    </b>
+</div>
+</div>
+<div id="quadrado">
+<div id="esquerda">
+    <h1>Onde nos encontrar</h1>
+    <br/>
+    <img src="Mapa.png" width="80%" height="50%">
+    <br/>
+    <p>Av. Reitor Benedito José Barreto Fonseca, H15 - Parque dos Jacarandás, Campinas - SP</p>
+</div>
+<div id="direita">
+    <h1>Nos envie uma sugestão</h1>
+    <br/>
+    <h3>Nome</h3>
+    <input type="text">
+    <br/>
+    <h3>Assunto</h3>
+    <input type="text">
+    <br/>
+    <h3>Mensagem</h3>
+    <input type="text" style="height: 200px;">
+    <br/>
+    <button>Enviar</button>
+</div>
+</div>
+
+</body>
+</html>

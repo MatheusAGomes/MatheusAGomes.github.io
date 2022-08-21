@@ -1,0 +1,114 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Blog De Memes</title>
+<style>
+
+*{
+        margin: 0;
+        padding: 0;
+}
+.a{
+        text-decoration: none;
+        color: darkblue;
+        font-family: Gadugi;
+        height: 80%;
+}
+#cabecario {  
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+ }
+ #textoC
+ {
+     margin-left: 50%;
+     justify-content: space-between;
+     font-size: 35px;
+     
+ }
+ #Scrolling
+ {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     background-color: lightblue;
+     width: 100%;
+
+ }
+ .Meme1{
+    font-family: Gadugi;
+    background-color: white;
+    margin: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+ }
+
+.Comentarios{
+display: flex;
+flex-direction: row;
+
+}
+#textoComentario
+{
+    margin-left: 10px;
+}
+ </style>
+</head>
+<body>
+<div id="cabecario">
+<img src="Captura de tela 2022-08-15 080949.png" width="100" height="100">
+<div id = "textoC">
+    <b>
+<a href="index.html" class="a">Home</a>
+<a href="Contato.html"  class="a">Contato</a>
+<a href="Sobre.html"  class="a">Sobre</a>
+    </b>
+</div>
+</div>
+<div id="Scrolling">
+            <div class="Meme1">
+                <a href="Meme.html"  class="a">
+                        <h1 style="margin-top: 10px;">Bisteca</h1>
+                        <img src="Bisteca.png" width="100%" height="75%">
+                        <p style="color:darkblue;">ver comentarios anteriores</p>
+                        <br/>
+                        <div class="Comentarios">
+                            <div id="imagemComentario">
+                                <img src="FotoDePerfil.jpeg" height="50px" width="50px" style="border-radius: 50px;">
+                            </div>
+                            <div id="textoComentario">
+                                <p>Matheus Gomes</p>
+                                <p>KKKKKKKKKKKKKKKKKK</p>
+                            </div>
+                        </div>
+
+                        
+                </a>
+            </div>
+            <div class="Meme1">
+                <a href="MemeVideo.html"  class="a">
+                        <h1 style="margin-top: 10px;">Salve do messi</h1>
+                        <video width="100%" height="75%" controls>
+                        <source src="SalveDoMessi.mp4" type="video/mp4">
+                        </video>
+                        <br/>     
+                        <p style="color:darkblue;">ver comentarios anteriores</p>
+                        <br/>   
+                        <div class="Comentarios">
+                            <div id="imagemComentario">
+                                <img src="FotoDePerfil.jpeg" height="50px" width="50px" style="border-radius: 50px;">
+                            </div>
+                            <div id="textoComentario">
+                                <p>Neymar</p>
+                                <p>😎</p>
+                            </div>
+                        </div>
+                        
+                </a>
+            </div>
+</div>
+</body>
+</html>

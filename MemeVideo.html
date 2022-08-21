@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisteca</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        color: darkblue;
+        font-family: Gadugi;
+        }
+        .a{
+            text-decoration: none;
+            color: darkblue;
+             font-family: Gadugi;
+        }
+        #cabecario {  
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            margin-left: 5%;
+         }
+         #textoC
+         {
+             margin-left: 50%;
+             align-content: space-between;
+             font-size: 35px;
+             
+         }
+         #Scrolling
+         {
+            display: flex;
+     align-items: center;
+     flex-direction: column;
+     background-color: lightblue;
+     height: 180%;
+     width: 100%;
+             
+         }
+         #Meme{
+             
+            font-family: Gadugi;
+            background-color: white;
+            margin: 10px;
+            height: 75%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            border-radius: 20px;
+            
+
+         }
+         #Perfil
+         {
+             display: flex;
+             flex-direction: row;
+             align-items: center;    
+             
+         }
+         #Caixa
+         {  
+            border: 5px solid black;
+            border-radius: 10px 10px 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+         }
+         #DentroDaCaixa{
+             margin: 5%;
+         }
+         input{
+            width: 375px;
+            height: 20px;
+         }
+        
+         .Comentarios{
+            display: flex;
+            flex-direction: row;
+
+            }
+            #textoComentario
+            {
+                margin-left: 10px;
+            }
+         </style>
+</head>
+<body>
+    <div id="cabecario" >
+        <img src="Captura de tela 2022-08-15 080949.png" width="100" height="100">
+        <div id = "textoC" >
+            <b>
+                <a href="index.html" class="a">Home</a>
+                <a href="Contato.html"  class="a">Contato</a>
+                <a href="Sobre.html"  class="a">Sobre</a>
+                    </b>
+        </div>
+        </div>
+        <div>
+            <div id="Scrolling">
+                <div id="Meme">
+                    <a >
+                            <h1>Salve do Messi</h1>
+                            <video width="500" height="500" controls>
+                                <source src="SalveDoMessi.mp4" type="video/mp4">
+                                </video>                       
+                            <H3>Comentarios</H3>
+                            <div class="Comentarios"style="margin-top: 10px;">
+                                <div id="imagemComentario" >
+                                    <img src="FotoDePerfil.jpeg" height="50px" width="50px" style="border-radius: 50px;">
+                                </div>    
+                                <div id="textoComentario">
+                                    <p>Neymar</p>
+                                    <p>😎</p>
+                                </div>
+                            </div>
+                            <div class="Comentarios"style="margin-top: 10px;">
+                                <div id="imagemComentario" >
+                                    <img src="FotoDePerfil.jpeg" height="50px" width="50px" style="border-radius: 50px;">
+                                </div>    
+                                <div id="textoComentario">
+                                    <p>Ronaldinho Gaucho</p>
+                                    <p>🧙🧙</p>
+                                </div>
+                            </div>
+                            
+                            <div class="Comentarios">
+                                <div id="imagemComentario">
+                                    <img src="FotoDePerfil.jpeg" height="50px" width="50px" style="border-radius: 50px;">
+                                </div>
+                                <div id="textoComentario">
+                                    <p>Eu</p>
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
